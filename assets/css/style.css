@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: translateX(-50%);
+}
+
+.header .container {
+    padding-left: 25px;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    position: relative;
+    display: inline-block;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+    position: relative;
+    padding: 50px 20px 50px 20px;
+    gap: 10;
+}
+
+a {
+    color: #fff;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.submenu {
+    display: none !IMPORTANT;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #ed6c17;
+    padding: 37px 0 0;
+}
+
+li:hover .submenu {
+    display: block !IMPORTANT;
+}
+
+.submenu a {
+    border-bottom: 1px solid #fff;
+    width: 280px;
+    display: block;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    transition: all 0.5s;
+}
+
+nav li:hover {
+    background-color: #ed6c17;
+}
+
+.nav:hover .submenu {
+    display: block;
+}
+
+ul.submenu li {
+    padding: 0 37px;
+    background-color: #ed6c17;
+}
+
+.submenu li a {
+    padding: 14px 0px 14px 4px;
+}
+
+.submenu li:hover {
+    background-color: #fff;
+}
+
+.submenu li:hover a {
+    color: #000;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .container {
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    text-align: center;
+    width: fit-content;
+    display: block;
+}
+
+h1 {
+    padding-top: 60px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 68px;
+}
+
+h2 {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+h3 {
+    padding-bottom: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 180px;
+}
+
+.section ul {
+    font-size: 15px;
+}
+
+.list-1 {
+    padding-left: 90px;
+}
+
+.list-2 {
+    padding-right: 0px;
+}
+
+.list-3 {
+    padding-right: 230px;
+}
+
+.section-1 h1 {
+    font-size: 53px;
+    color: #fff;
+}
+
+.section-1 {
+    background-color: #ed6c17;
+    padding-bottom: 35px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+span {
+    font-size: 25px;
+    color: white;
+    padding-left: 6px;
+}
+
+.section-1 p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 47%;
+    padding: 12px;
+    font-size: 23px;
+}
+
+.name {
+    margin-right: 24px;
+    margin-bottom: 28px;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    width: 124px;
+    height: 124px;
+    border-radius: 85px;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+
+.im-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.im-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 105px;
+}
+
+.foot-im {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.email {
+    color: #ed6c17;
+    transition: all 0.5s;
+}
+
+.add-1 p {
+    color: #fff;
+}
+
+.add-2 address {
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.frim2 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.footer p {
+    color: #fff;
+    padding: 0;
+}
+
+.footer p2 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.foot-im {
+    padding-bottom: 36px;
+}
+
+.footer .container {
+    width: 824px;
+}
+
+.email:hover {
+    color: #fff;
+}
+
+.foot-im a:hover {
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.section-1 button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+@media(max-width:768px) {
+    .header .container {
+        max-width: 768px;
+        width: 100%;
+    }
+    .banner img {
+        width: 100%;
+    }
+}
